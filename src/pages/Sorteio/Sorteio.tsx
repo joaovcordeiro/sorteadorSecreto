@@ -16,6 +16,7 @@ export default function Sorteio() {
     if (resultado.has(participanteDaVez)) {
       setAmigoSecreto(resultado.get(participanteDaVez)!);
     }
+    setTimeout(() => setAmigoSecreto(""), 5000);
   }
 
   return (
